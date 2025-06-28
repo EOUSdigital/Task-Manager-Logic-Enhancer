@@ -19,7 +19,7 @@
 //      > default           → "Unknown status"
 
 //  3. UI display logic
-//  • Use a ternary operator to determine display label:
+//  • Use a ternary operator to determine the display label:
 
 let task = '';
 
@@ -76,10 +76,6 @@ task.notes && console.log('Notes:', task.notes);
 //  CALL addTask with an empty object
 
 
-
-
-
-
 //! 🧮 Solution
 
 let taskList = [];
@@ -110,26 +106,3 @@ function getTaskStatus(status) {
 // Test the logic with sample inputs
 addTask({ name: 'Fix bug', isUrgent: true, status: 'Pending', notes: 'High priority' });
 addTask({}); 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
